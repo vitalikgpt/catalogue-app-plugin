@@ -3,7 +3,14 @@
   "mcpServers": {
     "catalogue-app": {
       "type": "streamable-http",
-      "url": "https://gramnews.org/mcp"
+      "url": "https://gramnews.org/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "none"
+          }
+        }
+      }
     }
   }
 }
