@@ -95,6 +95,14 @@ Add an HTTP MCP server with the URL `https://gramnews.org/mcp`.
 | `telegram-search` | "is there a Telegram bot / channel / app for …" |
 | `telegram-widgets` | profile card or mini game right in a chat |
 | `telegram-id` | "what is my Telegram ID", or the ID of a channel, group or bot |
+| `telegram-channel-analytics` | statistics of a channel or group |
+| `telegram-channel-posting` | posts with buttons, scheduling, autoposting from RSS/YouTube |
+| `telegram-emoji-art` | a big picture made of custom emoji |
+| `telegram-save-media` | saving videos, circles, voice messages, exporting a chat |
+| `telegram-formatting` | bold, spoiler, code, disappearing photo |
+| `telegram-privacy` | hide number, online status, photo |
+| `telegram-account-security` | 2FA, log out everywhere, after a hack, delete account |
+| `telegram-stars-gifts` | Stars, Premium, gifts and their market |
 | `telegram-bot-api` | writing or debugging Bot API and Mini App code |
 
 ## Without an assistant
