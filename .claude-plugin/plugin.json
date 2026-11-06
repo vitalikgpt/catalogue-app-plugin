@@ -1,0 +1,27 @@
+{
+  "name": "catalogue-app",
+  "version": "1.0.0",
+  "description": "Telegram bots in one click (no BotFather, no server, free hosting), emoji and sticker packs, search across 1.5M+ Telegram channels, chats, bots and mini apps, and a Bot API knowledge base.",
+  "author": {
+    "name": "Catalogue App",
+    "url": "https://t.me/catalogue_app"
+  },
+  "homepage": "https://gramnews.org/studio",
+  "repository": "https://github.com/vitalikgpt/catalogue-app-plugin",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "bot-api",
+    "mini-apps",
+    "emoji",
+    "stickers",
+    "mcp",
+    "no-code"
+  ],
+  "icon": "./assets/icon-512.png",
+  "documentationUrl": "https://github.com/vitalikgpt/catalogue-app-plugin#readme",
+  "supportUrl": "https://t.me/catalogue_app",
+  "privacyPolicyUrl": "https://gramnews.org/privacy",
+  "termsOfServiceUrl": "https://gramnews.org/terms"
+}

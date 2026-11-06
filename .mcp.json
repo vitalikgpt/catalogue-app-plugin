@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "catalogue-app": {
+      "type": "http",
+      "url": "https://gramnews.org/mcp"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "catalogue-app",
+  "version": "1.0.0",
+  "description": "Telegram bots in one click, emoji and sticker packs, and search across Telegram channels, chats, bots and mini apps — by Catalogue App (@catalogue_app).",
+  "mcpServers": {
+    "catalogue-app": {
+      "httpUrl": "https://gramnews.org/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

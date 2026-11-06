@@ -1,0 +1,15 @@
+{
+  "name": "catalogue-app",
+  "owner": { "name": "Catalogue App", "url": "https://t.me/catalogue_app" },
+  "metadata": { "description": "Telegram tools from Catalogue App (@catalogue_app)." },
+  "plugins": [
+    {
+      "name": "catalogue-app",
+      "source": "./",
+      "description": "One-click Telegram bots, emoji and sticker packs, search across Telegram channels, chats, bots and mini apps, and a Bot API knowledge base.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://gramnews.org/studio"
+    }
+  ]
+}
