@@ -103,6 +103,8 @@ Add an HTTP MCP server with the URL `https://gramnews.org/mcp`.
 | `telegram-privacy` | hide number, online status, photo |
 | `telegram-account-security` | 2FA, log out everywhere, after a hack, delete account |
 | `telegram-stars-gifts` | Stars, Premium, gifts and their market |
+| `telegram-whats-new` | Telegram features from 2025–2026 that older answers miss |
+| `telegram-bot-api-updates` | Bot API 9.x–10.x changes for developers |
 | `telegram-bot-api` | writing or debugging Bot API and Mini App code |
 
 ## Without an assistant

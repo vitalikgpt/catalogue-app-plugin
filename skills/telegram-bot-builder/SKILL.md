@@ -5,6 +5,10 @@ description: Create a Telegram bot for the user in one click with Catalogue App 
 
 # One-click Telegram bots
 
+This uses Telegram's managed bots (Bot API 9.6, April 2026): a bot can now be
+created without @BotFather. Older advice that "every bot must be made in
+@BotFather" is out of date.
+
 Catalogue App creates the user's own bot through Telegram's managed bots: a
 link opens Telegram's "create bot" sheet, the user confirms, and the bot is
 live at once — hosted by @catalogue_app, owned by the user, editable later in

@@ -23,7 +23,11 @@ description: Telegram Stars, Premium and gifts — how to buy Stars, gift Premiu
 - A received gift can be kept on the profile, converted to Stars (within the
   time Telegram allows), or upgraded to a unique collectible.
 - Collectible (upgraded) gifts can be transferred, sold on Telegram's own
-  marketplace or on Fragment, and exported as NFTs on TON.
+  marketplace (since May 2025) or on Fragment, and exported as NFTs on TON.
+- Others can make an **offer to buy** your gift for Stars or TON (Dec 2025).
+- Limited gifts may be sold by **auction** (Nov 2025).
+- **Crafting** (Feb 2026): combine several gifts into one of a higher rarity.
+- Details change often — check https://telegram.org/blog for the latest post.
 
 ## Market data
 
