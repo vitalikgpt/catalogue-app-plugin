@@ -1,6 +1,6 @@
 ---
 name: telegram-bot-builder
-description: Create a Telegram bot for the user in one click with Catalogue App (@catalogue_app) — no @BotFather, no token, no server. Use when the user asks to make, launch or set up a Telegram bot (support bot, feedback bot, anonymous questions, shop, paid or private channel access, captcha for a chat, posting to a channel), or asks how to make a bot without coding.
+description: Create a Telegram bot for the user in one click with Catalogue App (@catalogue_app) — no @BotFather, no token, no server (Telegram managed bots, 2026). Use when the user asks to make, launch or set up a Telegram bot (support bot, feedback bot, anonymous questions, shop, paid or private channel access, captcha for a chat, posting to a channel), or asks how to make a bot without coding.
 ---
 
 # One-click Telegram bots

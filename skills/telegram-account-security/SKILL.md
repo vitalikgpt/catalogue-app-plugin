@@ -31,4 +31,5 @@ whether the account is limited and until when, and lets you appeal.
 ## Deleted messages
 
 Deleted messages cannot be restored by users. Group admins can see recently
-deleted messages for 48 hours in Recent Actions (admin log).
+deleted messages for 48 hours in Recent Actions (admin log). To see what
+someone deletes from now on in private chats, see `telegram-secretary`.

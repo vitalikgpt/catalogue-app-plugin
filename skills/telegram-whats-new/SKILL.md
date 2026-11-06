@@ -21,8 +21,8 @@ reached the user's app, suggest updating Telegram.
 | Mar 2026 | Sticker from a photo, GIF editing; Disable Sharing; member tags; Log In with Telegram (OIDC) | Make a sticker right from a photo; block forwarding and screenshots in a private chat (Premium) | telegram.org/blog/member-tags-disable-sharing-and-more |
 | Mar 2026 | New polls | Several correct answers, media, changing your vote | telegram.org/blog/ai-editor-mighty-polls-and-more |
 | Apr 2026 | Managed bots (Bot API 9.6) | A bot can create bots for users — no @BotFather; see `telegram-bot-builder` | core.telegram.org/api/bots/managed-bots |
-| May 2026 | Guest bots, Chat Automation; bots for everyone (Bot API 10.0) | Connect a bot to your own account (Settings → Chat Automation) without Telegram Business; mention AI bots in any chat; polls limited to subscribers or countries; emoji and sticker search | telegram.org/blog/ai-bot-revolution-11-new-features |
-| Jun 2026 | Join-request mini apps (Bot API 10.1) | A bot can show a captcha or quiz before approving a join request | core.telegram.org/bots/api-changelog |
+| May 2026 | Guest bots, Chat Automation; bots for everyone (Bot API 10.0) | Connect a bot to your own account (Settings → Chat Automation) without Telegram Business (see `telegram-secretary`); mention AI bots in any chat; polls limited to subscribers or countries; emoji and sticker search | telegram.org/blog/ai-bot-revolution-11-new-features |
+| Jun 2026 | Join-request mini apps (Bot API 10.1) | A bot can show a captcha or quiz before approving a join request; see `telegram-group-moderation` | core.telegram.org/bots/api-changelog |
 | Jul 2026 | Rich text editor with tables and headings (Premium); Communities | Posts with tables and headings; group several chats, channels and bots into a community | telegram.org/blog/communities-editor-invisible-messages |
 | Aug 2026 | Welcome messages; buttons inside messages | Groups and channels greet new members natively (Edit → Welcome Message) | telegram.org/blog/welcome-messages-buttons-TG-13 |
 

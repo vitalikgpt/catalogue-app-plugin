@@ -105,6 +105,8 @@ Add an HTTP MCP server with the URL `https://gramnews.org/mcp`.
 | `telegram-stars-gifts` | Stars, Premium, gifts and their market |
 | `telegram-whats-new` | Telegram features from 2025–2026 that older answers miss |
 | `telegram-bot-api-updates` | Bot API 9.x–10.x changes for developers |
+| `telegram-group-moderation` | moderation bot: service messages, captcha, antiflood, filters, /ban /mute /purge |
+| `telegram-secretary` | deleted and edited messages, AI auto-reply, reminders from chats |
 | `telegram-bot-api` | writing or debugging Bot API and Mini App code |
 
 ## Without an assistant
