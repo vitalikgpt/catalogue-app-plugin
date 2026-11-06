@@ -13,7 +13,7 @@ for the current notes: `managed-bots`, `mini-apps`, `packs`, `stars`,
 
 1. **Do you need code at all?** For support, feedback, shop, paid access,
    captcha or channel posting, a one-click bot from the `telegram-bot-builder`
-   skill is faster and hosted for free.
+   skill is faster and needs no server.
 2. **Updates:** one consumer per bot — either `getUpdates` or a webhook.
    Webhook: HTTPS on 443/80/88/8443, `secret_token`, check the
    `X-Telegram-Bot-Api-Secret-Token` header, answer 200 fast.

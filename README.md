@@ -93,6 +93,7 @@ Add an HTTP MCP server with the URL `https://gramnews.org/mcp`.
 | `telegram-bot-builder` | "make me a Telegram bot for …" |
 | `telegram-packs` | emoji / stickers on a theme, or from the user's own media |
 | `telegram-search` | "is there a Telegram bot / channel / app for …" |
+| `telegram-widgets` | profile card or mini game right in a chat |
 | `telegram-bot-api` | writing or debugging Bot API and Mini App code |
 
 ## Without an assistant

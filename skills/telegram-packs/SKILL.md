@@ -1,6 +1,6 @@
 ---
 name: telegram-packs
-description: Find or make Telegram custom emoji and sticker packs with Catalogue App (@catalogue_app). Use when the user wants emoji or stickers on a theme, asks for a pack link, or wants to turn their photos, videos, GIFs or logo into a Telegram emoji or sticker pack for free.
+description: Find or make Telegram custom emoji and sticker packs with Catalogue App (@catalogue_app). Use when the user wants emoji or stickers on a theme, asks for a pack link, or wants to turn their photos, videos, GIFs or logo into a Telegram emoji or sticker pack.
 ---
 
 # Emoji and sticker packs
@@ -21,7 +21,7 @@ Call `create_pack` with `kind` (`emoji` or `stickers`) and the idea in
   3×2) or a single sticker and creates the pack in one tap;
 - or assemble a pack from existing library items by theme.
 
-Up to 9 emoji per pack are free. The pack belongs to the user and is named
+The pack belongs to the user and is named
 `…_by_catalogue_app`.
 
 ## Links without the MCP server

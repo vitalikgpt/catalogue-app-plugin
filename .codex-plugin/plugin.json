@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "catalogue-app",
   "version": "1.0.0",
-  "description": "Telegram bots in one click (no BotFather, no server, free hosting), emoji and sticker packs, search across 1.5M+ Telegram channels, chats, bots and mini apps, and a Bot API knowledge base.",
+  "description": "Create Telegram bots in one click without BotFather or a server, make emoji and sticker packs, and search Telegram channels, chats, bots and mini apps. Includes a Telegram Bot API knowledge base.",
   "author": {
     "name": "Catalogue App",
     "url": "https://t.me/catalogue_app"
@@ -22,8 +22,8 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Catalogue App",
-        "shortDescription": "Telegram bots in one click, emoji packs and search across Telegram.",
+        "displayName": "Catalogue App for Telegram",
+        "shortDescription": "One-click Telegram bots",
         "category": "Productivity",
         "websiteURL": "https://gramnews.org/studio",
         "supportURL": "https://t.me/catalogue_app",
