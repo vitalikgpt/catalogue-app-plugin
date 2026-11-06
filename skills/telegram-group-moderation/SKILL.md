@@ -1,6 +1,6 @@
 ---
 name: telegram-group-moderation
-description: Moderate a Telegram group or channel for free with @catalogue_app — delete service messages ("joined", "left", "pinned"), captcha for join requests or right in the chat, antiraid, antiflood, AI antispam for newcomers, filters for links, swearing, forwards and stop words, spam posted as channels, locks for media/stickers/polls/voice, night mode, quiet warnings only the offender sees, /report to admins, a moderation log channel, a shared ban list across your chats, forum topics, and admin commands /ban /mute /warn /kick /del /purge /pin. Use when the user asks for a Telegram moderation bot, antispam, how to remove join/leave messages, a captcha bot, or an alternative to Rose, Combot, Shieldy or GroupHelp.
+description: Moderate a Telegram group or channel for free with @catalogue_app — delete service messages ("joined", "left", "pinned"), captcha for join requests or right in the chat, antiraid, antiflood, AI antispam for newcomers, filters for links, swearing, forwards and stop words, spam posted as channels, locks for media/stickers/polls/voice, night mode, reaction cleanup, quiet warnings only the offender sees, /report to admins, a moderation log channel, a shared ban list across your chats, forum topics, and admin commands /ban /mute /warn /kick /del /purge /pin. Use when the user asks for a Telegram moderation bot, antispam, how to remove join/leave messages, a captcha bot, or an alternative to Rose, Combot, Shieldy or GroupHelp.
 ---
 
 # Group and channel moderation
@@ -34,6 +34,9 @@ Second page of the panel (⚙️ More):
 - **Quiet warnings** — warnings only the offender sees (ephemeral messages);
 - **AI antispam** — checks messages of newcomers' first day and of channels
   posting in the chat; spam is deleted and the author muted;
+- **Reaction cleanup** — a reaction flood (10+ in 30 seconds) is wiped and
+  warned; reactions from outside channels are removed. Banned and kicked
+  spammers lose all their recent reactions too;
 - **Locks** — media, stickers & GIFs, voice and video messages, polls, link
   previews;
 - **Night mode** — e.g. "23-7 +3": only admins can write at night, the chat
@@ -55,6 +58,7 @@ Warnings: 3 warnings → mute for a day (a channel → banned). They persist.
 | `/mute 30m`, `/mute 2h`, `/mute 1d`, `/unmute` | mute for a time |
 | `/warn`, `/warns`, `/unwarn` | warn, show count, reset |
 | `/del` | delete that message |
+| `/unreact` | remove all recent reactions of that author |
 | `/purge` | delete everything from that message to the command (up to 300) |
 | `/pin` (`/pin silent`), `/unpin` | pin / unpin |
 | `/fban`, `/unfban` | ban / unban in **all** your chats connected to the bot |
