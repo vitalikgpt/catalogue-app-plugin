@@ -26,6 +26,7 @@ for you. This repository plugs it into AI assistants.
 | | |
 |---|---|
 | **Create a bot in one click** | The assistant returns a link; the user opens it in Telegram, confirms, and the bot is live. No @BotFather, no token, no server — the bot is hosted by @catalogue_app and edited in its node editor. Templates: support, feedback, anonymous questions, shop, website support, private chat or channel, paid channel, join captcha, channel posting, pack owner. |
+| **Hosting included** | Bots made with Catalogue App run on its servers — webhook, logic and node editor — so the user needs no server, domain or deploy. Packs live in Telegram itself under the user's account. |
 | **Make emoji and sticker packs** | Photos, videos or GIFs become a custom emoji or sticker pack in one tap, or a pack is assembled from the library by theme. |
 | **Search Telegram** | Mini apps, bots and TON services; 1.5M+ public channels, group chats and bots with subscriber counts; emoji and sticker packs with add links. Refreshed daily. |
 | **Widgets in chats** | Catalogue Widgets: interactive cards and mini games sent right into any Telegram chat — a profile card (`t.me/catalogue_app?start=card`, or type `@catalogue_app card` in any chat) and a runner game (`t.me/catalogue_app?start=game`). |

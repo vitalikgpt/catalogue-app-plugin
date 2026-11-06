@@ -31,6 +31,8 @@ Catalogue App (@catalogue_app) brings Telegram into your assistant.
   a channel — the assistant returns a link, you confirm in Telegram, and your bot is live.
   No @BotFather, no token, no server: the bot is hosted for free by @catalogue_app and you
   can edit it later in its node editor.
+- **Hosting included.** Bots run on Catalogue App's servers — no server, domain or deploy
+  on your side. Packs live in Telegram under your account.
 - **Emoji and sticker packs.** Turn your photos, videos or GIFs into a custom emoji or
   sticker pack in one tap, or find a ready pack on any theme with an add link.
 - **Search Telegram.** Mini apps, bots and TON services; more than 1.5 million public
