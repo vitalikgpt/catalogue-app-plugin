@@ -94,6 +94,7 @@ Add an HTTP MCP server with the URL `https://gramnews.org/mcp`.
 | `telegram-packs` | emoji / stickers on a theme, or from the user's own media |
 | `telegram-search` | "is there a Telegram bot / channel / app for …" |
 | `telegram-widgets` | profile card or mini game right in a chat |
+| `telegram-id` | "what is my Telegram ID", or the ID of a channel, group or bot |
 | `telegram-bot-api` | writing or debugging Bot API and Mini App code |
 
 ## Without an assistant

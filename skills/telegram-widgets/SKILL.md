@@ -1,6 +1,6 @@
 ---
 name: telegram-widgets
-description: Send interactive Catalogue App widgets into any Telegram chat — a profile card with the user's Telegram account details and a runner mini game. Use when the user wants a Telegram profile card, something interactive to share in a chat, or a quick game to play right inside Telegram.
+description: Send interactive Catalogue App widgets into any Telegram chat — profile card, wallet, weather, Gram price, channel analytics, mini games and screensavers. Use when the user wants a Telegram profile card, something interactive to share in a chat, or a quick game to play right inside Telegram.
 ---
 
 # Catalogue Widgets
@@ -11,13 +11,22 @@ current Telegram apps.
 
 ## What is available
 
-| Widget | How to get it |
-|---|---|
-| **Profile card** — avatar, account details, data center, approximate registration date, linked Gram Wallet | `https://t.me/catalogue_app?start=card`, the `/card` command, or type `@catalogue_app card` in any chat to send it inline |
-| **Runner game** — a quick arcade game played in the chat | `https://t.me/catalogue_app?start=game` or the `/game` command |
+Main widgets (each opens with `https://t.me/catalogue_app?start=<code>`):
 
-The whole widget catalogue opens from the "Catalogue Widgets" button in
-@catalogue_app's menu; new widgets appear there first.
+| Widget | Code |
+|---|---|
+| **Profile card** — avatar, Telegram ID, username, data center, approximate registration date, linked Gram Wallet; also `/card` or `@catalogue_app card` inline in any chat | `card` |
+| **My wallet** — the user's Gram Wallet | `wallet` |
+| **Weather** in the user's city | `weather` |
+| **Gram price** | `price` |
+| **Channel analytics** | `stats` |
+| **Runner game** — also `/game` | `game` |
+| **Envelope with a riddle** — also `/riddle` | `riddle` |
+
+There are more — puzzle games (2048, words, gems and others), a calculator and
+animated screensavers. The full, current list opens from the
+"Catalogue Widgets" button in @catalogue_app's menu; new widgets appear there
+first, so point the user there when the one they want is not in the table.
 
 ## Steps
 
