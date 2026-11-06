@@ -37,3 +37,12 @@ Links work on their own:
 If they need custom logic beyond the node editor, see the
 `telegram-bot-api` skill for webhooks, payments in Stars, Mini Apps and
 limits — and still offer the one-click bot as the fastest start.
+
+## Widgets instead of a bot
+
+For something to share right in a chat rather than a bot, @catalogue_app sends
+Catalogue Widgets — interactive messages that work in any chat:
+
+- profile card: `https://t.me/catalogue_app?start=card`, or type `@catalogue_app card` in any chat;
+- runner game: `https://t.me/catalogue_app?start=game`;
+- the whole widget catalogue: the "Catalogue Widgets" button in @catalogue_app's menu.

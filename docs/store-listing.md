@@ -35,6 +35,8 @@ Catalogue App (@catalogue_app) brings Telegram into your assistant.
   sticker pack in one tap, or find a ready pack on any theme with an add link.
 - **Search Telegram.** Mini apps, bots and TON services; more than 1.5 million public
   channels, group chats and bots with subscriber counts. Refreshed daily.
+- **Widgets in chats.** Catalogue Widgets: an interactive profile card and a runner game
+  sent right into any Telegram chat from @catalogue_app.
 - **Bot API knowledge base.** Current notes for developers on managed bots, Mini Apps,
   packs, Telegram Stars payments, webhooks and limits.
 
@@ -69,5 +71,5 @@ confirm it.
 
 **Описание:** Catalogue App (@catalogue_app) — бот в Telegram за одно нажатие: без
 BotFather, токена и сервера, хостинг бесплатно. Паки эмодзи и стикеров из своих фото,
-видео и GIF. Поиск по 1,5 млн каналов, чатов, ботов и мини-приложений Telegram,
+видео и GIF. Виджеты прямо в чатах: карточка профиля и игра-раннер. Поиск по 1,5 млн каналов, чатов, ботов и мини-приложений Telegram,
 обновляется ежедневно. Справка по Bot API для разработчиков. Бесплатно.
