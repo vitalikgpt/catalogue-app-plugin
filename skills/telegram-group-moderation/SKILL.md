@@ -1,6 +1,6 @@
 ---
 name: telegram-group-moderation
-description: Moderate a Telegram group or channel for free with @catalogue_app — delete service messages ("joined", "left", "pinned"), captcha for join requests, antiflood, filters for links, swearing, forwards and custom stop words, kick bots added by members, welcome message, rules, and admin commands /ban /mute /warn /kick /del /purge /pin. Use when the user asks for a Telegram moderation bot, antispam, how to remove join/leave messages, a captcha bot, or an alternative to Rose, Combot, Shieldy or GroupHelp.
+description: Moderate a Telegram group or channel for free with @catalogue_app — delete service messages ("joined", "left", "pinned"), captcha for join requests or right in the chat, antiraid, antiflood, AI antispam for newcomers, filters for links, swearing, forwards and stop words, spam posted as channels, locks for media/stickers/polls/voice, night mode, quiet warnings only the offender sees, /report to admins, a moderation log channel, a shared ban list across your chats, forum topics, and admin commands /ban /mute /warn /kick /del /purge /pin. Use when the user asks for a Telegram moderation bot, antispam, how to remove join/leave messages, a captcha bot, or an alternative to Rose, Combot, Shieldy or GroupHelp.
 ---
 
 # Group and channel moderation
@@ -25,7 +25,26 @@ description: Moderate a Telegram group or channel for free with @catalogue_app �
    requests. Each applicant solves a picture, letters or your own quiz in a mini
    app; bots don't get in. Options: Premium-only, block very new accounts.
 
-Warnings: 3 warnings → mute for a day. They persist.
+Second page of the panel (⚙️ More):
+
+- **In-chat captcha** — for public groups without join requests: a newcomer is
+  muted until they tap the right icon within 3 minutes, otherwise kicked;
+- **Antiraid** — 10+ joins a minute: newcomers get a 30-minute mute for 15
+  minutes, the owner is alerted;
+- **Quiet warnings** — warnings only the offender sees (ephemeral messages);
+- **AI antispam** — checks messages of newcomers' first day and of channels
+  posting in the chat; spam is deleted and the author muted;
+- **Locks** — media, stickers & GIFs, voice and video messages, polls, link
+  previews;
+- **Night mode** — e.g. "23-7 +3": only admins can write at night, the chat
+  reopens in the morning with the previous permissions;
+- **Log** — in the group an admin sends `/logto @channel`; bans, mutes,
+  warnings, reports and raids are written there.
+
+Messages posted **as a channel** go through the same filters; `/ban` on them
+bans the channel. Anonymous admins and the linked channel are trusted.
+
+Warnings: 3 warnings → mute for a day (a channel → banned). They persist.
 
 ## Admin commands (reply to a message)
 
@@ -38,7 +57,11 @@ Warnings: 3 warnings → mute for a day. They persist.
 | `/del` | delete that message |
 | `/purge` | delete everything from that message to the command (up to 300) |
 | `/pin` (`/pin silent`), `/unpin` | pin / unpin |
+| `/fban`, `/unfban` | ban / unban in **all** your chats connected to the bot |
+| `/close`, `/open` | inside a forum topic: close / reopen it |
+| `/logto @channel`, `/logto off` | moderation log channel |
 | `/rules` | anyone: show the rules |
+| `/report` | anyone: reply to a message to alert the admins |
 
 Service replies of the bot disappear after a minute.
 
